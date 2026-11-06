@@ -1,0 +1,86 @@
+experiment:
+  experiment_id: "EXP-2026-001"
+  experiment_name: "Financial Contagion Baseline Experiment"
+  status: "template"
+  execution_date: null
+  research_objective: "Financial contagion risk prediction"
+  hypothesis: "Not yet specified"
+
+dataset:
+  dataset_name: "Not yet specified"
+  dataset_version: "Not yet verified"
+  provider: "Not yet specified"
+  extraction_date: null
+  extraction_timestamp: null
+  data_vintage: "Not yet specified"
+  geographic_coverage: []
+  observation_frequency: "Not yet specified"
+  checksum: null
+
+features:
+  definitions_file: "docs/data_dictionary.md"
+  feature_list: []
+  target_variable: "contagion"
+  missing_value_method: "Not yet specified"
+  transformation_method: "Not yet specified"
+
+training:
+  start_date: null
+  end_date: null
+  observation_count: null
+
+testing:
+  start_date: null
+  end_date: null
+  observation_count: null
+  forecast_horizon_days: 5
+
+model:
+  architecture: "LogisticRegression"
+  configuration_file: "config.yaml"
+  hyperparameters: {}
+  decision_threshold: null
+  model_checkpoint: null
+
+reproducibility:
+  random_seed: 42
+  python_version: "Not yet verified"
+  operating_system: "Not yet verified"
+  numpy_version: "Not yet verified"
+  pandas_version: "Not yet verified"
+  scikit_learn_version: "Not yet verified"
+  pytorch_version: "Not applicable"
+  tensorflow_version: "Not applicable"
+  cuda_version: "Not applicable"
+  git_commit_hash: null
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1_score
+    - roc_auc
+    - pr_auc
+    - brier_score
+    - log_loss
+    - false_alarm_rate
+    - crisis_detection_rate
+    - early_warning_lead_time
+
+  results: {}
+
+  uncertainty_reporting:
+    confidence_intervals: "Not yet reported"
+    statistical_tests: "Not yet performed"
+
+artifacts:
+  model_path: null
+  predictions_path: null
+  metrics_path: null
+  logs_path: null
+
+notes:
+  limitations: []
+  unresolved_issues: []
+  researcher_notes: []
