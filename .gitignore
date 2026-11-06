@@ -2,42 +2,41 @@
 __pycache__/
 *.py[cod]
 *.pyo
+*.so
 
-# Virtual environments
-.venv/
+# Virtual Environment
 venv/
+.venv/
 env/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
+# IDE
+.vscode/
+.idea/
 
 # Environment variables
 .env
 .env.*
 
-# IDE
-.vscode/
-.idea/
+# Model artifacts
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Logs
+*.log
+logs/
 
 # Operating system
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Model files
-*.pt
-*.pth
-*.onnx
-*.pkl
-*.joblib
-
-# Temporary data
-temp/
-tmp/
