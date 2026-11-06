@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+
+message: >-
+  If you use this research framework, software or
+  documentation in academic work, please cite it
+  using the metadata below.
+
+title: >-
+  AI-Driven Global Financial Contagion and
+  Geopolitical Risk Prediction Engine
+
+authors:
+  - family-names: Singh
+    given-names: Harsh
+
+type: software
+
+version: 0.1.0
+
+date-released: 2026-11-06
+
+abstract: >-
+  A research-oriented multimodal AI framework
+  investigating global financial contagion,
+  geopolitical risk, systemic-risk forecasting,
+  financial network intelligence and early-warning
+  methodologies.
+
+keywords:
+  - Financial Contagion
+  - Geopolitical Risk
+  - Systemic Risk
+  - Quantitative Finance
+  - Artificial Intelligence
+  - Machine Learning
+  - Graph Neural Networks
+  - Financial Econometrics
+  - Network Science
+  - Early Warning Systems
+  - Multimodal AI
+  - Causal Inference
+
+license: LicenseRef-All-Rights-Reserved
+
+repository-code: >-
+  https://github.com/YOUR_USERNAME/ai-financial-contagion-engine
+
+preferred-citation:
+  type: generic
+  title: >-
+    AI-Driven Global Financial Contagion and
+    Geopolitical Risk Prediction Engine
+  authors:
+    - family-names: Singh
+      given-names: Harsh
+  year: 2026
