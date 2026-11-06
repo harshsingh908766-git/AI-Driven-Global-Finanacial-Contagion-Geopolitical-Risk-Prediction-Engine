@@ -1,0 +1,30 @@
+project:
+  name: "AI Financial Contagion Engine"
+  author: "Harsh Singh"
+  version: "0.1.0"
+
+data:
+  source: "synthetic"
+  frequency: "daily"
+  forecast_horizon: 5
+
+features:
+  rolling_window: 20
+  volatility_window: 30
+
+model:
+  type: "logistic_regression"
+  random_state: 42
+  test_size: 0.20
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+    - roc_auc
+
+research:
+  validation: "chronological"
+  look_ahead_bias_check: true
